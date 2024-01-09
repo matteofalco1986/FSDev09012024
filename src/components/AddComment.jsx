@@ -12,6 +12,7 @@ const AddComment = ({ bookId, aggiornaCommenti }) => {
     elementId: bookId
   })
 
+
   const sendNewReview = async (e) => {
     e.preventDefault()
     try {
