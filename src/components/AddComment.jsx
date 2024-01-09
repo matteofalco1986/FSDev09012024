@@ -35,6 +35,7 @@ const AddComment = ({ bookId, aggiornaCommenti }) => {
     } catch (err) {
       console.error('error', err)
     }
+    // Added comment to test git
   }
 
   return (
